@@ -1,8 +1,8 @@
 # ReasonReact Urql Example
 
-> A basic example of using reason-react with reason-urql.
+> A basic example of using [reason-react](https://reasonml.github.io/reason-react/) with [reason-urql](https://github.com/parkerziegler/reason-urql).
 
-> Uses [reason-prisma-apollo-server](https://github.com/drejohnson/reason-prisma-apollo-server) for GraphQL Api
+> Uses [reason-prisma-apollo-server](https://github.com/drejohnson/reason-prisma-apollo-server) for GraphQL API
 
 ## Features
 
