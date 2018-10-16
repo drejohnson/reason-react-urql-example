@@ -1,0 +1,25 @@
+{
+  "name": "reason-react-urql-example",
+  "reason": {
+    "react-jsx": 2
+  },
+  "sources": {
+    "dir" : "src",
+    "subdirs" : true
+  },
+  "package-specs": [{
+    "module": "commonjs",
+    "in-source": true
+  }],
+  "suffix": ".bs.js",
+  "namespace": true,
+  "bs-dependencies": [
+    "reason-react",
+    "bs-react-head",
+    "bs-dynamic-import",
+    "reason-loadable",
+    "reason-urql"
+  ],
+  "ppx-flags": ["graphql_ppx/ppx"],
+  "refmt": 3
+}
