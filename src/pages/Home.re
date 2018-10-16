@@ -1,4 +1,4 @@
-open ReactHead;
+open BsReactHead.ReactHead;
 
 let component = ReasonReact.statelessComponent("Home");
 

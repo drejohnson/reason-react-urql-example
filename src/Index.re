@@ -1,6 +1,6 @@
 open ReasonUrql;
 
-open ReactHead;
+open BsReactHead.ReactHead;
 
 open UrqlClient;
 
