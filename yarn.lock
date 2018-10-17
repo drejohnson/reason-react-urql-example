@@ -1096,10 +1096,10 @@ bs-platform@^4.0.6:
   resolved "https://registry.yarnpkg.com/bs-platform/-/bs-platform-4.0.6.tgz#e7f156c77ad3efafb0c0291b41dcf1b06f93c192"
   integrity sha512-TrNzQFoV6opBYdUgcRdgQQ5f6JnKgotPFZORIjuHPtRlYgv37P6xVBTGfA4NlMCkHXHcPrL6JI63GyAcfq+qpg==
 
-bs-react-head@^0.1.3:
-  version "0.1.3"
-  resolved "https://registry.yarnpkg.com/bs-react-head/-/bs-react-head-0.1.3.tgz#a94e9a62eba4c1cdbd4443d5203eb1570aff4d0c"
-  integrity sha512-ajCHJ5Xqh2VP4TRRRw420U/yupqqvkBY+7bCaMVEbEDVII+oYGGOgRspC6JNKfgCKto7QH+BzpaNY1jmQEMv1w==
+bs-react-head@^0.1.6:
+  version "0.1.6"
+  resolved "https://registry.yarnpkg.com/bs-react-head/-/bs-react-head-0.1.6.tgz#a34f40a266aa802dbd9d432cb0cfc2162bc8f38c"
+  integrity sha512-FAZmvBOjHT1qft4gA1h71H1pqPtdmyavjF0mK8U5nsWvhub8KJkNWS8a2yU3mUy2S81tQ2FAnCx0kE7s55/Okw==
 
 bsb-js@^1.1.7:
   version "1.1.7"

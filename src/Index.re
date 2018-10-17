@@ -1,6 +1,6 @@
 open ReasonUrql;
 
-open BsReactHead.ReactHead;
+open ReactHead;
 
 open UrqlClient;
 
@@ -17,12 +17,12 @@ serviceWorker();
 type hot;
 
 [@bs.deriving abstract]
-type parcelModule = {hot: option(hot)};
+type module_ = {hot: option(hot)};
 
-[@bs.val] external parcelModule: parcelModule = "module";
+[@bs.val] external module_: module_ = "module";
 [@bs.send] external accept: (hot, unit) => unit = "accept";
 
-switch (parcelModule->hotGet) {
+switch (module_->hotGet) {
 | Some(h) => h->accept()
 | _ => Js.log("We are not hot")
 };

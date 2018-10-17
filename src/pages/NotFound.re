@@ -1,4 +1,4 @@
-open BsReactHead.ReactHead;
+open ReactHead;
 
 let component = ReasonReact.statelessComponent("NotFound");
 
